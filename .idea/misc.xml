@@ -3,12 +3,20 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringRMI-web" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringRMI-web2" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringRMI-web3" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/SpringRMI-web2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web3/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

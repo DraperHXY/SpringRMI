@@ -1,4 +1,4 @@
-package com.draper.model;
+package com.draper.core.model;
 
 
 import lombok.Data;

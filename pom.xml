@@ -12,6 +12,7 @@
     <modules>
         <module>SpringRMI-core</module>
         <module>SpringRMI-web</module>
+        <module>SpringRMI-service</module>
     </modules>
 
 
