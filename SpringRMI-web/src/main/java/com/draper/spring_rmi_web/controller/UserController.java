@@ -2,7 +2,10 @@ package com.draper.spring_rmi_web.controller;
 
 import com.draper.spring_rmi_core.service.UserService;
 import com.draper.spring_rmi_core.model.User;
+import com.draper.spring_rmi_web.util.RandomCodeUtil;
+import com.draper.spring_rmi_web.util.SMSManager;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -67,10 +70,24 @@ public class UserController {
         user.setPassword(firstPassword);
         user.setEmail(email);
 
-        log.warn("user phone = [{}] login up", phoneNumber);
+        log.warn("user email = [{}] login up", email);
         boolean result = userService.insertUserByPhone(user);
         log.warn("user login up result = [{}]", result);
         return "index";
     }
+
+    @Autowired
+    private SMSManager smsManager;
+
+    @PostMapping("/sendPhoneCode")
+    private void sendPhoneCodePost(@RequestParam("phone") String phone) {
+        smsManager.sendTemplateSMS(phone, "1", new String[]{String.valueOf(RandomCodeUtil.build()), "15"});
+    }
+
+    @PostMapping("/sendEmailCode")
+    private String sendEmailCodePost(@RequestParam("email") String email) {
+        return "index";
+    }
+
 
 }
