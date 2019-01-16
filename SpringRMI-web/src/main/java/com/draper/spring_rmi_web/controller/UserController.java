@@ -2,6 +2,7 @@ package com.draper.spring_rmi_web.controller;
 
 import com.draper.spring_rmi_core.service.UserService;
 import com.draper.spring_rmi_core.model.User;
+import com.draper.spring_rmi_web.util.EmailManager;
 import com.draper.spring_rmi_web.util.RandomCodeUtil;
 import com.draper.spring_rmi_web.util.SMSManager;
 import lombok.extern.slf4j.Slf4j;
@@ -13,12 +14,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
 @RequestMapping("/user")
 @Controller
 public class UserController {
+
+    private Map<String, String> redis = new HashMap<>();
 
     @Resource
     private UserService userService;
@@ -84,9 +88,16 @@ public class UserController {
         smsManager.sendTemplateSMS(phone, "1", new String[]{String.valueOf(RandomCodeUtil.build()), "15"});
     }
 
+    @Autowired
+    private EmailManager emailManager;
+
     @PostMapping("/sendEmailCode")
-    private String sendEmailCodePost(@RequestParam("email") String email) {
-        return "index";
+    private void sendEmailCodePost(@RequestParam("email") String email) {
+        int code = RandomCodeUtil.build();
+        log.warn("start send email = [{}], code = [{}]", email, code);
+        redis.put("email" + email, String.valueOf(code));
+        emailManager.sendVerifyCode(email, String.valueOf(RandomCodeUtil.build()));
+        log.warn("send email = [{}], code = [{}] compelete", email, code);
     }
 
 

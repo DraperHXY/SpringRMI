@@ -5,6 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:component-scan base-package="com.draper.spring_rmi_web.util"/>
+
     <context:property-placeholder location="classpath:config/api.properties"/>
 
     <bean class="com.draper.spring_rmi_web.util.SMSManager">
@@ -13,6 +15,15 @@
         <property name="accountSid" value="${ronglian.accountSid}"/>
         <property name="accountToken" value="${ronglian.accountToken}"/>
         <property name="appId" value="${ronglian.appId}"/>
+    </bean>
+
+    <bean class="com.sendcloud.sdk.core.SendCloud" id="sendCloud">
+        <property name="apiUser" value="${sendcloud.api_user}"/>
+        <property name="apiKey" value="${sendcloud.api_key}"/>
+    </bean>
+
+    <bean class="com.sendcloud.sdk.builder.SendCloudBuilder">
+        <property name="sendCloud" ref="sendCloud"/>
     </bean>
 
 </beans>
