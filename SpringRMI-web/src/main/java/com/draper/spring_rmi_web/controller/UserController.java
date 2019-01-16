@@ -85,7 +85,11 @@ public class UserController {
 
     @PostMapping("/sendPhoneCode")
     private void sendPhoneCodePost(@RequestParam("phone") String phone) {
-        smsManager.sendTemplateSMS(phone, "1", new String[]{String.valueOf(RandomCodeUtil.build()), "15"});
+        int code = RandomCodeUtil.build();
+        log.warn("start send phone = [{}], code = [{}]", phone, code);
+        redis.put("phone" + phone, String.valueOf(code));
+        smsManager.sendTemplateSMS(phone, "1", new String[]{String.valueOf(code), "15"});
+        log.warn("send phone = [{}], code = [{}] compelete", phone, code);
     }
 
     @Autowired
@@ -96,7 +100,7 @@ public class UserController {
         int code = RandomCodeUtil.build();
         log.warn("start send email = [{}], code = [{}]", email, code);
         redis.put("email" + email, String.valueOf(code));
-        emailManager.sendVerifyCode(email, String.valueOf(RandomCodeUtil.build()));
+        emailManager.sendVerifyCode(email, String.valueOf(code));
         log.warn("send email = [{}], code = [{}] compelete", email, code);
     }
 
