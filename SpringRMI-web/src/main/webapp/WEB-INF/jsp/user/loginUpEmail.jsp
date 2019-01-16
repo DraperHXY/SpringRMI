@@ -1,5 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
 <body>
 <form action="/SpringRMI/user/loginUp/e" method="post">
     用户名<input name="name" type="text"><br>
@@ -25,7 +29,7 @@
 
                 time--;
                 if (time >= 0) {
-                    bt01.innerHTML = time + "s后重新发送";
+                    bt02.innerHTML = time + "s后重新发送";
                 } else {
                     bt02.innerHTML = "重新发送验证码";
                     bt02.disabled = false;  //倒计时结束能够重新点击发送的按钮
@@ -46,5 +50,3 @@
 </form>
 </body>
 </html>
-
-
