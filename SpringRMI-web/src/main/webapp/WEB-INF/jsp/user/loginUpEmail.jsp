@@ -36,7 +36,7 @@
 
             function vertiCodeSend(email) {
                 $.ajax({
-                    url: "/FirstTiles/v1/user/sendEmailCode",  //发送验证码的php页面
+                    url: "/SpringRMI/user/sendEmailCode",  //发送验证码的php页面
                     data: {"email": email},//传入后台
                     type: "POST",//类型
                 });

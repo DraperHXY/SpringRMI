@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div>
-    <form action="/FirstTiles/v1/user/loginUp/p" method="post">
+    <form action="/SpringRMI/user/loginUp/p" method="post">
         用户名<input name="name" type="text"><br>
         密码<input name="firstPassword" type="password"><br>
         再次确认密码<input name="secondPassword" type="password"><br>

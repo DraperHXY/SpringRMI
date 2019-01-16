@@ -4,14 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.draper.spring_rmi_service.service.impl.UserServiceImpl" id="userService"/>
+    <bean class="com.draper.spring_rmi_service.impl.UserServiceImpl" id="userService"/>
 
     <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
         <property name="service" ref="userService"/>
         <property name="serviceName" value="UserService"/>
-        <property name="serviceInterface" value="com.draper.core.service.UserService"/>
+        <property name="serviceInterface" value="com.draper.spring_rmi_core.service.UserService"/>
         <property name="registryPort" value="9090"/>
-
     </bean>
 
 </beans>

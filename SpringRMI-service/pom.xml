@@ -11,6 +11,15 @@
 
     <artifactId>SpringRMI-service</artifactId>
 
+    <properties>
+        <mysql.version>5.1.37</mysql.version>
+        <c3p0.version>0.9.1.2</c3p0.version>
+        <mybatis.version>3.3.0</mybatis.version>
+        <mybatis.spring.version>1.2.3</mybatis.spring.version>
+        <spring.version>5.1.0.RELEASE</spring.version>
+    </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>com.draper.SpringRMI</groupId>
@@ -54,6 +63,39 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- 数据源 -->
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${c3p0.version}</version>
+        </dependency>
+
+        <!-- 持久层工具 MyBatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${mybatis.spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
         </dependency>
     </dependencies>
 

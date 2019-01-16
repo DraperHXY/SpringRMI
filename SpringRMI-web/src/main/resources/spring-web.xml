@@ -24,4 +24,10 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+    <bean id="userService" name="userService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+        <property name="serviceUrl" value="rmi://localhost:9090/UserService"/>
+        <property name="serviceInterface" value="com.draper.spring_rmi_core.service.UserService"/>
+        <property name="refreshStubOnConnectFailure" value="true"/>
+    </bean>
+
 </beans>

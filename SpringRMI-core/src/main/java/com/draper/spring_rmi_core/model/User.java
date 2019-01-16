@@ -1,10 +1,12 @@
-package com.draper.core.model;
+package com.draper.spring_rmi_core.model;
 
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class User {
+public class User implements Serializable {
 
     private long id;
 
