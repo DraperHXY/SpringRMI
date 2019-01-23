@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringRMI-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9a23f46-22e7-4bc7-a7c1-74bcb76558b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SpringRMI-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SpringRMI-core/target/" />
+    <ignored path="$PROJECT_DIR$/SpringRMI-web/target/" />
+    <ignored path="$PROJECT_DIR$/SpringRMI-web2/target/" />
+    <ignored path="$PROJECT_DIR$/SpringRMI-service/target/" />
+    <ignored path="$PROJECT_DIR$/SpringRMI-web3/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringRMI" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loginUpPhonePost#0;class#UserController#0" />
+                <element signature="method#loginUpEmailPost#0;class#UserController#0" />
+                <element signature="method#sendPhoneCodePost#0;class#UserController#0" />
+                <element signature="method#sendEmailCodePost#0;class#UserController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="28" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringRMI-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3124">
+              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SpringRMI_</find>
+      <find>tOMCAT</find>
+      <find>SpringRMI</find>
+      <find>CONTEXT_PATH</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="draper &lt;draper_hxy@163.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/sdk/model/TemplateContent.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/com/sendcloud/sdk/model/TemplateContent.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/webapp/WEB-INF/jsp/loginIn.jsp" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/core/service/UserService.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/webapp/WEB-INF/jsp/loginUpEmail.jsp" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/core/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring-rmi-server.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/java/com/draper/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_core/App.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/resources/spring-rmi-client.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/src/main/resources/spring-web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web2/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web3/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web3/src/main/resources/spring-web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web3/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/spring_rmi_core/model/User.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring-rmi-service.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/resources/spring/spring-core.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-dao.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/spring_rmi_core/service/UserService.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/App.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-service/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/jsp/user/loginUpPhone.jsp" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/jsp/user/loginUpEmail.jsp" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/SMSManager.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring-web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/RandomCodeUtil.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/model/Attachment.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/EmailManager.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-api.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/EmailManager.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/sdk/model/Attachment.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/builder/SendCloudBuilder.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/config/Config.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/spring_rmi_core/Test.java" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringRMI-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringRMI-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="961" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_rmi_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_rmi_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_rmi_web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548248674364" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15471168" />
+    <property name="project.structure.side.proportion" value="0.20364238" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/SpringRMI-service/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/SpringRMI-web3/src/main/webapp/WEB-INF/jsp/user" />
+      <recent name="$PROJECT_DIR$/SpringRMI-core/src/main/resources/spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.draper.spring_rmi_web.util" />
+      <recent name="com.draper.spring_rmi_web.util.email_util" />
+      <recent name="com.draper.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringRMI-web/src/main/java" />
+      <recent name="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util" />
+      <recent name="$PROJECT_DIR$/SpringRMI-web/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/SpringRMI-service/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.37 ">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.draper.spring_rmi_service.App" />
+      <module name="SpringRMI-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.draper.spring_rmi_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.draper.spring_rmi_web.util.RandomCodeUtil" />
+      <module name="SpringRMI-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.draper.spring_rmi_web.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.37 " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringRMI" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringRMI-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringRMI" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringRMI" />
+      </server-settings>
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <log_file checked="false" alias="Tomcat Catalina Log" path="%IDEA_RUN:CATALINA_BASE%/logs/catalina.*" />
+      <log_file checked="false" alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file id="Tomcat Manager" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51074" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringRMI-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.RandomCodeUtil" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.37 " />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RandomCodeUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a23f46-22e7-4bc7-a7c1-74bcb76558b9" name="Default Changelist" comment="" />
+      <created>1547514206534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547514206534</updated>
+      <workItem from="1547514212481" duration="7927000" />
+      <workItem from="1547529644851" duration="3746000" />
+      <workItem from="1547533778884" duration="333000" />
+      <workItem from="1547534312847" duration="880000" />
+      <workItem from="1547536679086" duration="5169000" />
+      <workItem from="1547559555288" duration="15513000" />
+      <workItem from="1547617549487" duration="1546000" />
+      <workItem from="1547620978940" duration="522000" />
+      <workItem from="1547627802818" duration="8789000" />
+      <workItem from="1547640121115" duration="8790000" />
+      <workItem from="1547706262393" duration="4909000" />
+      <workItem from="1547714166257" duration="74000" />
+      <workItem from="1547773382828" duration="131000" />
+    </task>
+    <task id="LOCAL-00001" summary="搭建雏形">
+      <created>1547523338560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547523338560</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搭建 MVC">
+      <created>1547568994486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547568994486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基本完成 RMI 的 Service 和 Web">
+      <created>1547635106430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547635106430</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改 ajax 引入 bug">
+      <created>1547637178707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547637178707</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加短信功能">
+      <created>1547643908207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547643908207</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加邮件功能">
+      <created>1547647467731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547647467731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加日志，以及伪 Redis">
+      <created>1547648067362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547648067362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58329000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="961" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.2936118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50060904" side_tool="true" weight="0.2027027" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" weight="0.95371497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32886723" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32886723" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006142" side_tool="true" weight="0.95371497" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49938574" weight="0.32886723" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32985258" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="搭建雏形" />
+    <MESSAGE value="搭建 MVC" />
+    <MESSAGE value="基本完成 RMI 的 Service 和 Web" />
+    <MESSAGE value="修改 ajax 引入 bug" />
+    <MESSAGE value="添加短信功能" />
+    <MESSAGE value="添加邮件功能" />
+    <MESSAGE value="添加日志，以及伪 Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加日志，以及伪 Redis" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="e#711#729#0" expanded="true" />
+            <element signature="e#798#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/spring_rmi_core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/MyBatisSystemException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/jsp/user/loginUpEmail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CCP_REST_SMS_SDK_JAVA_v2.6.3r.jar!/com/cloopen/rest/sdk/CCPRestSmsSDK.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/resources/config/api.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/webapp/WEB-INF/jsp/user/loginUpPhone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/demo/mail/SendMail.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/util/ResponseData.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/config/Credential.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/model/Content.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/exception/SmsException.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/model/MailBody.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/config/Config.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/exception/VoiceException.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/model/Attachment.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/RandomCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/EmailManager.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/email_util/sdk/builder/SendCloudBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/SMSManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/draper/SendCloud/1.0.0/SendCloud-1.0.0.jar!/com/sendcloud/sdk/builder/SendCloudBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/EmailManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/demo/mail/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/util/ResponseData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/config/Credential.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/model/Content.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/exception/SmsException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/model/TextContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/core/SendCloud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/model/MailBody.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/builder/SendCloudBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/exception/VoiceException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/sendcloud/sdk/model/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-core/src/main/java/com/draper/spring_rmi_core/Test.java" />
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3124">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loginUpPhonePost#0;class#UserController#0" />
+            <element signature="method#loginUpEmailPost#0;class#UserController#0" />
+            <element signature="method#sendPhoneCodePost#0;class#UserController#0" />
+            <element signature="method#sendEmailCodePost#0;class#UserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SpringRMI-web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (SpringRMI-web)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringRMI-core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.4.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20364238" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$USER_HOME$/Desktop" />
+    <option value="install:install-file -DgroupId=com.draper -DartifactId=SendCloud -Dversion=1.0.0 -Dpackaging=jar -Dfile=SendCloud.jar" />
+    <option value="install:install-file -DgroupId=com.draper -DartifactId=CCP_REST_SMS_SDK_JAVA -Dversion=2.6.3 -Dpackaging=jar -Dfile=CCP_REST_SMS_SDK_JAVA_v2.6.3r.jar" />
+  </component>
+</project>
