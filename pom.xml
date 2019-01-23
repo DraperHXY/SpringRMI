@@ -13,6 +13,7 @@
         <module>SpringRMI-core</module>
         <module>SpringRMI-web</module>
         <module>SpringRMI-service</module>
+        <module>SpringRMI-service-second</module>
     </modules>
 
 

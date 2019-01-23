@@ -1,4 +1,4 @@
-package spring_rmi_service_second.mapper;
+package com.draper.spring_rmi_service_second.mapper;
 
 import com.draper.spring_rmi_core.model.User;
 

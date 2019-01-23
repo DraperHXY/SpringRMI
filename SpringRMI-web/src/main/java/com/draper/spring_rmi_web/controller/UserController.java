@@ -2,9 +2,7 @@ package com.draper.spring_rmi_web.controller;
 
 import com.draper.spring_rmi_core.service.UserService;
 import com.draper.spring_rmi_core.model.User;
-import com.draper.spring_rmi_web.util.EmailManager;
-import com.draper.spring_rmi_web.util.RandomCodeUtil;
-import com.draper.spring_rmi_web.util.SMSManager;
+import com.draper.spring_rmi_web.util.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,11 +23,33 @@ public class UserController {
     private Map<String, String> redis = new HashMap<>();
 
     @Resource
+    private UserService userService1;
+
+    @Resource
+    private UserService userService2;
+
     private UserService userService;
 
     @GetMapping("/loginIn")
     private String loginInGet() {
         return "user/loginIn";
+    }
+
+    @PostMapping("/loginIn")
+    private String loginInPost(@RequestParam("account") String account, @RequestParam("password") String password) {
+        userService = (UserService) RandomServiceUtil.getService(userService1, userService2);
+
+        // 参数校验
+        if (account == null || account.trim().length() == 0
+                || password == null || password.trim().length() == 0)
+            return "index";
+
+        if (StringMatchsUtil.isMobile(account)){
+            User user = userService.selectUserByPhone(account);
+        } else {
+            User user = userService.selectUserByEmail(account);
+        }
+        return "index";
     }
 
     @GetMapping("/loginUp/p")
@@ -44,6 +64,11 @@ public class UserController {
 
     @PostMapping("/loginUp/p")
     private String loginUpPhonePost(@RequestParam Map<String, String> params) {
+
+        // 实现随机访问
+        userService = (UserService) RandomServiceUtil.getService(userService1, userService2);
+
+        // 获取前端数据
         String name = params.get("name");
         String firstPassword = params.get("firstPassword");
         String secondPassword = params.get("secondPassword");
@@ -63,6 +88,10 @@ public class UserController {
 
     @PostMapping("/loginUp/e")
     private String loginUpEmailPost(@RequestParam Map<String, String> params) {
+
+        // 实现随机访问
+        userService = (UserService) RandomServiceUtil.getService(userService1, userService2);
+
         String name = params.get("name");
         String firstPassword = params.get("firstPassword");
         String secondPassword = params.get("secondPassword");

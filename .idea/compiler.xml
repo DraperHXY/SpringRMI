@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringRMI-core" />
         <module name="SpringRMI-service" />
+        <module name="SpringRMI-service-second" />
         <module name="SpringRMI-web" />
       </profile>
     </annotationProcessing>

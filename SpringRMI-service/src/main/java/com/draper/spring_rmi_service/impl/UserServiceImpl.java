@@ -26,12 +26,12 @@ public class UserServiceImpl implements UserService {
     }
 
     public User selectUserByPhone(String phone) {
-        log.warn("select User, user phone = [{}]", phone);
+        log.warn("first service select User, user phone = [{}]", phone);
         return userMapper.selectByPhone(phone);
     }
 
     public User selectUserByEmail(String email) {
-        log.warn("select User, user email = [{}]", email);
+        log.warn("first select User, user email = [{}]", email);
         return userMapper.selectByEmail(email);
     }
 

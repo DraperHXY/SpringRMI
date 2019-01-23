@@ -1,10 +1,10 @@
-package spring_rmi_service_second.impl;
+package com.draper.spring_rmi_service_second.impl;
 
 import com.draper.spring_rmi_core.model.User;
 import com.draper.spring_rmi_core.service.UserService;
+import com.draper.spring_rmi_service_second.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import spring_rmi_service_second.mapper.UserMapper;
 
 @Slf4j
 public class UserServiceImpl implements UserService {
@@ -26,12 +26,12 @@ public class UserServiceImpl implements UserService {
     }
 
     public User selectUserByPhone(String phone) {
-        log.warn("select User, user phone = [{}]", phone);
+        log.warn("second service select User, user phone = [{}]", phone);
         return userMapper.selectByPhone(phone);
     }
 
     public User selectUserByEmail(String email) {
-        log.warn("select User, user email = [{}]", email);
+        log.warn("second service select User, user email = [{}]", email);
         return userMapper.selectByEmail(email);
     }
 
