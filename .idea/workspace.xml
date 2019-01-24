@@ -7,35 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a23f46-22e7-4bc7-a7c1-74bcb76558b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/java/com/draper/spring_rmi_service_second/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/java/com/draper/spring_rmi_service_second/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/java/com/draper/spring_rmi_service_second/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/config/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/config/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/spring/spring-rmi-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/spring/spring-rmi-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/spring/spring-rmi-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/RandomServiceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/util/StringMatchsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-service/src/main/resources/spring/spring-rmi-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-service/target/classes/com/draper/spring_rmi_service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-service/target/classes/com/draper/spring_rmi_service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/DefaultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/java/com/draper/spring_rmi_web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/src/main/resources/spring/spring-rmi-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/target/classes/com/draper/spring_rmi_web/controller/DefaultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/target/classes/com/draper/spring_rmi_web/controller/DefaultController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/target/classes/com/draper/spring_rmi_web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/target/classes/com/draper/spring_rmi_web/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRMI-web/target/classes/spring/spring-rmi-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRMI-web/target/classes/spring/spring-rmi-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringRMI-service-second/src/main/resources/spring/spring-rmi-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -86,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,92 +262,37 @@
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_rmi_service_second" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringRMI-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_rmi_service_second" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_rmi_service_second" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringRMI" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringRMI-service-second" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_rmi_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringRMI" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +364,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548252818231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548253330267" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -653,7 +570,7 @@
       <workItem from="1547706262393" duration="4909000" />
       <workItem from="1547714166257" duration="74000" />
       <workItem from="1547773382828" duration="131000" />
-      <workItem from="1548248595520" duration="4043000" />
+      <workItem from="1548248595520" duration="5106000" />
     </task>
     <task id="LOCAL-00001" summary="搭建雏形">
       <created>1547523338560</created>
@@ -708,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62372000" />
+    <option name="totallyTimeSpent" value="63435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,7 +640,7 @@
     <frame x="0" y="23" width="1680" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.29791155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.29791155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -740,7 +657,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32886723" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32886723" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32886723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32886723" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006142" side_tool="true" weight="0.95371497" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49938574" weight="0.32886723" />
@@ -1077,16 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -1115,6 +1022,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringRMI-service/src/main/java/com/draper/spring_rmi_service/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
